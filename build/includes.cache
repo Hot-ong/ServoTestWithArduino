@@ -11,6 +11,46 @@
   },
   {
     "Sourcefile": "c:\\Users\\3dore\\Desktop\\HDW\\03_Workspace\\Arduino_Sources\\ServoTestWithArduino\\build\\sketch\\ServoTestWithArduino.ino.cpp",
+    "Include": "Servo.h",
+    "Includepath": "C:\\Users\\3dore\\Documents\\Arduino\\libraries\\Servo\\src"
+  },
+  {
+    "Sourcefile": "c:\\Users\\3dore\\Desktop\\HDW\\03_Workspace\\Arduino_Sources\\ServoTestWithArduino\\build\\sketch\\ServoTestWithArduino.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\3dore\\Documents\\Arduino\\libraries\\Servo\\src\\avr\\Servo.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\3dore\\Documents\\Arduino\\libraries\\Servo\\src\\mbed\\Servo.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\3dore\\Documents\\Arduino\\libraries\\Servo\\src\\megaavr\\Servo.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\3dore\\Documents\\Arduino\\libraries\\Servo\\src\\nrf52\\Servo.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\3dore\\Documents\\Arduino\\libraries\\Servo\\src\\sam\\Servo.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\3dore\\Documents\\Arduino\\libraries\\Servo\\src\\samd\\Servo.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\3dore\\Documents\\Arduino\\libraries\\Servo\\src\\stm32f4\\Servo.cpp",
     "Include": "",
     "Includepath": null
   }
