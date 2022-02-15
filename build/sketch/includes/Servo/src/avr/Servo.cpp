@@ -1,4 +1,3 @@
-#line 1 "c:\\Users\\3dore\\Desktop\\HDW\\03_Workspace\\Arduino_Sources\\ServoTestWithArduino\\includes\\Servo\\src\\avr\\Servo.cpp"
 /*
  Servo.cpp - Interrupt driven Servo library for Arduino using 16 bit timers- Version 2
  Copyright (c) 2009 Michael Margolis.  All right reserved.

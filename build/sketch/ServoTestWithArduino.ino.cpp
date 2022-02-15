@@ -1,5 +1,5 @@
 #include <Arduino.h>
-#line 1 "c:\\Users\\3dore\\Desktop\\HDW\\03_Workspace\\Arduino_Sources\\ServoTestWithArduino\\ServoTestWithArduino.ino"
+#line 1 "d:\\Arduino_Git\\ServoTestWithArduino\\ServoTestWithArduino.ino"
 #include<Servo.h>
 const int button_zeroset = 2;
 const int button_1st = 3;
@@ -29,21 +29,21 @@ bool btn3_sts = false;
 bool btn4_sts = false;
 
 
-#line 30 "c:\\Users\\3dore\\Desktop\\HDW\\03_Workspace\\Arduino_Sources\\ServoTestWithArduino\\ServoTestWithArduino.ino"
+#line 30 "d:\\Arduino_Git\\ServoTestWithArduino\\ServoTestWithArduino.ino"
 void setup();
-#line 44 "c:\\Users\\3dore\\Desktop\\HDW\\03_Workspace\\Arduino_Sources\\ServoTestWithArduino\\ServoTestWithArduino.ino"
+#line 44 "d:\\Arduino_Git\\ServoTestWithArduino\\ServoTestWithArduino.ino"
 void loop();
-#line 108 "c:\\Users\\3dore\\Desktop\\HDW\\03_Workspace\\Arduino_Sources\\ServoTestWithArduino\\ServoTestWithArduino.ino"
+#line 108 "d:\\Arduino_Git\\ServoTestWithArduino\\ServoTestWithArduino.ino"
 void position_zeroSet(void);
-#line 115 "c:\\Users\\3dore\\Desktop\\HDW\\03_Workspace\\Arduino_Sources\\ServoTestWithArduino\\ServoTestWithArduino.ino"
+#line 115 "d:\\Arduino_Git\\ServoTestWithArduino\\ServoTestWithArduino.ino"
 void position_1st(void);
-#line 122 "c:\\Users\\3dore\\Desktop\\HDW\\03_Workspace\\Arduino_Sources\\ServoTestWithArduino\\ServoTestWithArduino.ino"
+#line 122 "d:\\Arduino_Git\\ServoTestWithArduino\\ServoTestWithArduino.ino"
 void position_2nd(void);
-#line 129 "c:\\Users\\3dore\\Desktop\\HDW\\03_Workspace\\Arduino_Sources\\ServoTestWithArduino\\ServoTestWithArduino.ino"
+#line 129 "d:\\Arduino_Git\\ServoTestWithArduino\\ServoTestWithArduino.ino"
 void position_3rd(void);
-#line 136 "c:\\Users\\3dore\\Desktop\\HDW\\03_Workspace\\Arduino_Sources\\ServoTestWithArduino\\ServoTestWithArduino.ino"
+#line 136 "d:\\Arduino_Git\\ServoTestWithArduino\\ServoTestWithArduino.ino"
 void position_4th(void);
-#line 30 "c:\\Users\\3dore\\Desktop\\HDW\\03_Workspace\\Arduino_Sources\\ServoTestWithArduino\\ServoTestWithArduino.ino"
+#line 30 "d:\\Arduino_Git\\ServoTestWithArduino\\ServoTestWithArduino.ino"
 void setup() {
   pinMode(button_zeroset, INPUT_PULLUP); // 위치 초기화
   pinMode(button_1st, INPUT_PULLUP);    // 1번 위치

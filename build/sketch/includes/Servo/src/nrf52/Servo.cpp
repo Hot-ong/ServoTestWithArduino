@@ -1,4 +1,3 @@
-#line 1 "c:\\Users\\3dore\\Desktop\\HDW\\03_Workspace\\Arduino_Sources\\ServoTestWithArduino\\includes\\Servo\\src\\nrf52\\Servo.cpp"
 /*
   Copyright (c) 2016 Arduino. All right reserved.
 

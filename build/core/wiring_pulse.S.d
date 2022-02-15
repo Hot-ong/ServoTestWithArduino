@@ -1,2 +1,2 @@
-c:\Users\3dore\Desktop\HDW\03_Workspace\Arduino_Sources\ServoTestWithArduino\build\core\wiring_pulse.S.o: \
- C:\Users\3dore\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.4\cores\arduino\wiring_pulse.S
+d:\Arduino_Git\ServoTestWithArduino\build\core\wiring_pulse.S.o: \
+ C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino\wiring_pulse.S

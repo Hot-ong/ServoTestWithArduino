@@ -1,5 +1,5 @@
-# 1 "c:\\Users\\3dore\\Desktop\\HDW\\03_Workspace\\Arduino_Sources\\ServoTestWithArduino\\ServoTestWithArduino.ino"
-# 2 "c:\\Users\\3dore\\Desktop\\HDW\\03_Workspace\\Arduino_Sources\\ServoTestWithArduino\\ServoTestWithArduino.ino" 2
+# 1 "d:\\Arduino_Git\\ServoTestWithArduino\\ServoTestWithArduino.ino"
+# 2 "d:\\Arduino_Git\\ServoTestWithArduino\\ServoTestWithArduino.ino" 2
 const int button_zeroset = 2;
 const int button_1st = 3;
 const int button_2nd = 4;

@@ -1,4 +1,6 @@
 #include<Servo.h>
+//#include<EEPROM.h> // 통신으로 설정해야되는 경우에 그럴 수 있게 구현해야 됨
+// Pin mapping
 const int button_zeroset = 2;
 const int button_1st = 3;
 const int button_2nd = 4;
@@ -7,64 +9,53 @@ const int button_4th = 6;
 const int servo_1st = 9;
 const int servo_2nd = 10;
 const int servo_3rd = 11;
+// 특정 각도값
 const int centre = 89;
 const int leftDrop = 150;
 const int rightDrop = 30;
 
-Servo servo1;
+Servo servo1;   // 서보모터 객체 생성
 Servo servo2;
 Servo servo3;
-int servo1_value = 0;
-int servo2_value = 0;
-int servo3_value = 0;
 
-int testVar = 0;
-
-bool btn0_sts = false;
-bool btn1_sts = false;
-bool btn2_sts = false;
-bool btn3_sts = false;
-bool btn4_sts = false;
+bool btn0_sts = false;  // 0번 버튼 프로세스 상태 flag
+bool btn1_sts = false;  // 1번 버튼 프로세스 상태 flag
+bool btn2_sts = false;  // 2번 버튼 프로세스 상태 flag
+bool btn3_sts = false;  // 3번 버튼 프로세스 상태 flag
+bool btn4_sts = false;  // 4번 버튼 프로세스 상태 flag
 
 
 void setup() {
-  pinMode(button_zeroset, INPUT_PULLUP); // 위치 초기화
-  pinMode(button_1st, INPUT_PULLUP);    // 1번 위치
-  pinMode(button_2nd, INPUT_PULLUP);    // 2번 위치
-  pinMode(button_3rd, INPUT_PULLUP);    // 3번 위치
-  pinMode(button_4th, INPUT_PULLUP);    // 4번 위치
+  pinMode(button_zeroset, INPUT_PULLUP); // 위치 초기화 버튼
+  pinMode(button_1st, INPUT_PULLUP);    // 1번 위치 버튼
+  pinMode(button_2nd, INPUT_PULLUP);    // 2번 위치 버튼
+  pinMode(button_3rd, INPUT_PULLUP);    // 3번 위치 버튼
+  pinMode(button_4th, INPUT_PULLUP);    // 4번 위치 버튼
   servo1.attach(servo_1st); // 1번 서보모터
   servo2.attach(servo_2nd); // 2번 서보모터
   servo3.attach(servo_3rd); // 3번 서보모터
-  servo1.write(centre);
-  servo2.write(centre);
-  servo3.write(centre);
+  position_zeroSet();   // 위치 초기화
 }
 
 void loop() {
     if (digitalRead(button_zeroset) == 0)  {
         if(!(btn1_sts||btn2_sts||btn3_sts||btn4_sts))    btn0_sts = true;
-        delay(10);
     }
 
     if (digitalRead(button_1st) == 0)  {
         if(!(btn0_sts||btn2_sts||btn3_sts||btn4_sts))    btn1_sts = true;
-        delay(10);
     }
 
     if (digitalRead(button_2nd) == 0)  {
         if(!(btn1_sts||btn0_sts||btn3_sts||btn4_sts))    btn2_sts = true;
-        delay(10);
     }
 
     if (digitalRead(button_3rd) == 0)  {
         if(!(btn1_sts||btn2_sts||btn0_sts||btn4_sts))    btn3_sts = true;
-        delay(10);
     }
 
     if (digitalRead(button_4th) == 0)  {
         if(!(btn1_sts||btn2_sts||btn3_sts||btn0_sts))    btn4_sts = true;
-        delay(10);
     }
 
     //

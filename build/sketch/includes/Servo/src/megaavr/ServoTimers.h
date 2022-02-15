@@ -1,4 +1,3 @@
-#line 1 "c:\\Users\\3dore\\Desktop\\HDW\\03_Workspace\\Arduino_Sources\\ServoTestWithArduino\\includes\\Servo\\src\\megaavr\\ServoTimers.h"
 /*
   Copyright (c) 2018 Arduino LLC. All right reserved.
 
