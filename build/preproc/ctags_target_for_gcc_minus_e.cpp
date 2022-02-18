@@ -11,15 +11,18 @@ static const int button_1st = 3;
 static const int button_2nd = 4;
 static const int button_3rd = 5;
 static const int button_4th = 6;
-static const int servo_1st = 9;
-static const int servo_2nd = 10;
-static const int servo_3rd = 11;
+static const int servo_1st = 8;
+static const int servo_2nd = 9;
+static const int servo_3rd = 10;
+
 // 각도값 (현재 1,2,3번 모터 각도 공통으로 사용)
 static const int centre = 90; // 평형 상태의 각도
 static const int leftDrop = 150; // 모터 정면에서 봤을 때 왼쪽으로 기울이는 각도. 값이 클수록 급경사. > centre. ≤ 180.
 static const int rightDrop = 30; // 모터 정면에서 봤을 때 오른쪽으로 기울이는 각도. 값이 작을수록 급경사. < centre. ≥ 0
+
 // 버튼에 따른 모터 동작 간격
 static const int motor_term = 500; // millisecond 단위. 버튼 동작 간의 간격, 하부 모터 동작 후 상부 모터 동작 사이 간격
+
 
 
 
@@ -29,6 +32,7 @@ static const int pos_1st = 1;
 static const int pos_2nd = 2;
 static const int pos_3rd = 3;
 static const int pos_4th = 4;
+
 // 모터 위치 값 정의
 static const int pos_matrix[5][3] =
 { // {1번모터, 2번모터, 3번 모터}
@@ -120,7 +124,7 @@ void loop() {
 void motors_position(int pos)
 {
     if((pos < pos_zero) || (pos > pos_4th)) return;
-# 184 "c:\\Users\\3dore\\Desktop\\HDW\\03_Workspace\\Arduino_Sources\\ServoTestWithArduino\\ServoTestWithArduino.ino"
+# 188 "c:\\Users\\3dore\\Desktop\\HDW\\03_Workspace\\Arduino_Sources\\ServoTestWithArduino\\ServoTestWithArduino.ino"
     servo2.write(pos_matrix[pos][1]);
     servo3.write(pos_matrix[pos][2]);
     delay(motor_term);
@@ -236,5 +240,5 @@ void motors_position(int pos)
     delay(motor_term);
 
 */
-# 246 "c:\\Users\\3dore\\Desktop\\HDW\\03_Workspace\\Arduino_Sources\\ServoTestWithArduino\\ServoTestWithArduino.ino"
+# 250 "c:\\Users\\3dore\\Desktop\\HDW\\03_Workspace\\Arduino_Sources\\ServoTestWithArduino\\ServoTestWithArduino.ino"
 }
