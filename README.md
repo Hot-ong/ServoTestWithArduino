@@ -5,7 +5,7 @@
 ![2022-02-21_172709](https://user-images.githubusercontent.com/99518727/154919423-2615e9ce-542a-40e9-a867-e9b721f85e2e.png)
 
 
-- 좌측 도구모음에서 Git 클릭
+- 좌측 도구모음에서 소스 제어 클릭
 
 ![2022-02-21_172844](https://user-images.githubusercontent.com/99518727/154919851-8d7f3db7-7a11-4a7a-a7c1-515adf0b2e90.png)
 
